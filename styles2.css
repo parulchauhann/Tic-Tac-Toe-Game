@@ -1,0 +1,154 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+}
+
+body{
+    background: url("./back2222.jpg");
+    background-size: cover;
+}   
+
+section {
+    width: 100%;
+    height: 100vh; 
+    position: absolute;
+}
+
+.container {
+    width: 210px;
+    display: grid;
+    cursor: default;
+    position: absolute;
+    justify-content: center;
+    margin: 40px 575px 70px;
+    font-family: "Permanent Marker", cursive;
+    grid-template-columns: repeat(3, auto);
+}
+
+.win-announce{
+    top: 19vh;
+    width: 350px;
+    height: 110px;
+    font-size: 50px;
+    padding-top: 60px;
+    position: relative;
+    margin-left: 500px;
+    text-align: center;
+    border-radius: 25px;
+    padding-bottom: 82px;
+    font-family: cursive;
+    border: 3px solid rgb(255, 0, 0);
+    background-color: rgb(186, 252, 197);
+}
+
+#playingagain {
+    position: relative;
+    padding: 8px;
+    top: 20px;
+    left: -345px;
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    margin-top: 0px;
+    font-weight: 600;
+    border-radius: 2dvb;
+    margin: 0px 0%px 0vh 0%;
+
+}
+
+.box {
+    width: 160px;
+    display: flex;
+    height: 160px;
+    font-size: 8vw;   
+    justify-content: center;
+    border: 5pt solid black;
+}
+
+.box:hover {
+    color: red;
+    border-radius: 20px;
+    background-color: rgba(252, 248, 248, 0.801);
+}
+
+.bt-0 {
+    border-top: 0;
+}
+
+.bl-0 {
+    border-left: 0;
+}
+
+.br-0 {
+    border-right: 0;
+}
+
+.bb-0 {
+    border-bottom: 0;
+}
+
+table {
+    border: 2px;
+    padding: 3%;
+    width: 500px;
+    font-size: 20px;
+    cursor: default;
+    margin-top: 70px; 
+    margin-bottom: 0%;
+    border-radius: 3ch;
+    margin-left: 430px;
+    border-style: double;
+    font-family: cursive;
+    color: rgb(4, 6, 94);
+    box-sizing: border-box;
+    background-color: rgba(246, 244, 247, 0.932);
+}   
+
+#toReset:hover {
+    background-color: rgba(123, 250, 97, 0.973);
+}
+
+#toReset {
+    display: none;
+    background-color: white;
+}
+
+#status{
+    display: inline;
+    position: relative;
+    color: rgb(3, 0, 0);
+}
+
+#toReset, #status { 
+    padding: 9px;
+    height: 65px;
+    width: 120px;
+    font-size: 35px;
+    cursor: pointer;
+    margin-top: 21ch;
+    margin-left: 83%;
+    justify-content: center;
+    font-family: 'Titan One';
+}
+
+button {
+    padding: 8px;
+    display: block;     
+    font-size: 28px;
+    cursor: pointer;
+    margin-top: 0px;
+    font-weight: 600;
+    border-radius: 2dvb;
+    margin: 20px 0px -5px 68%;
+    border-color: rgb(96, 42, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(240, 148, 252, 0.925);
+}   
+
+.reseting{
+    top: 100px;
+    left: 100px;
+    display: inline;
+    position: relative;
+}

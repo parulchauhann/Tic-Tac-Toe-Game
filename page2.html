@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="./styles2.css">
+    <link rel ="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <div id="gameContainer">
+        <div class="container">
+            <div cellIndex="0" class="box bt-0 bl-0" id="bl0" ></div>
+            <div cellIndex="1" class="box bt-0" id="bl1"></div>
+            <div cellIndex="2" class="box bt-0 br-0" id="bl2"></div>
+            <div cellIndex="3" class="box bl-0" id="bl3"></div>
+            <div cellIndex="4" class="box" id="bl4"></div>
+            <div cellIndex="5" class="box br-0" id="bl5"></div>
+            <div cellIndex="6" class="box bl-0 bb-0" id="bl6"></div>
+            <div cellIndex="7" class="box bb-0" id="bl7"></div>
+            <div cellIndex="8" class="box br-0 bb-0" id="bl8"></div>
+        </div>
+   
+        <section id="information">
+            <table>
+                <th>Key Points</th>
+                <tbody>
+                   <td>
+                        <ol>
+                            <b>
+                               <li> The game is played on a grid that's 3 squares by 3 squares.</li>
+                               <li> Suppose you are X (cross) and your friend is 0 (nought).</li>
+                               <li> Take turns to put mark in empty squares.</li>
+                               <li> First player to get 3 of marks in a row is the winner.</li>
+                               <li> Game is over if no player has 3 marks in a row or the 9 squares grid is full.</li>
+                            </b>
+                        </ol>
+                           <button type="gotit" id="got"> Got it !</button>
+                    </td>                
+              </tbody>
+            </table>
+        </section>
+    </div>
+    <div id="side">
+        <h2 id="status"></h2>
+        <button class="reseting2" type="reset" id="toReset">Reset</button>
+        <button class="reseting" type="playagain" id="playingagain">Play Again</button>
+    </div>
+    
+    <script src="./script222.js"></script>
+</body>
+</html>
